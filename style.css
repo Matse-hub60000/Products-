@@ -1,0 +1,69 @@
+/* Set up background image */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: url('images/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff; /* White text for contrast */
+}
+
+/* Add dark overlay for readability */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+  z-index: -1;
+}
+
+/* Header and navigation */
+header {
+  background-color: rgba(255, 105, 180, 0.8); /* Pink with transparency */
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  color: white;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Section */
+section {
+  padding: 40px 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Light background for text box */
+  color: #333;
+  margin: 20px;
+  border-radius: 12px;
+}
+
+/* Product images */
+.product img {
+  width: 160px;
+  height: auto;
+  margin: 10px;
+  border: 2px solid #ffb6c1;
+  border-radius: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: rgba(255, 105, 180, 0.8);
+  text-align: center;
+  color: white;
+  padding: 10px;
+}

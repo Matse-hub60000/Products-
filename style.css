@@ -46,7 +46,7 @@ nav a:hover {
 section {
   padding: 40px 20px;
   background-color: rgba(200); /* Light background for text box */
-  color: #none;
+  color: none;
   margin: 20px;
   border-radius: 12px;
 }
